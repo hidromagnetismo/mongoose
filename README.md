@@ -5,6 +5,11 @@ Learning Mongoose
 
 ![Screenshot_2021-02-26_02-10-14](https://user-images.githubusercontent.com/6284869/109245217-fd85a400-77d7-11eb-9ca5-bba5850c68e8.png)
 
+
+# Actualizar un documento previamente obtenido por findOne()
+
+![Screenshot_2021-02-26_07-04-54](https://user-images.githubusercontent.com/6284869/109267242-279f8c00-7801-11eb-889d-69d8d46be407.png)
+
 # Install
 
 ```bash
