@@ -13,6 +13,13 @@ const someFunction = async () => {
     console.log(result);
 }
 
+const otherFunction = async () => {
+    const user = await User.findOneAndUpdate({username: 'clark'}, {
+        name: 'Gordon Clark'
+    }, {new: true});
+    console.log(user);
+}
+
 async function updateUsers() {
     const user = await User.updateOne({username: 'fatz'}, {
         password: 'contraseñaSegura'
@@ -20,4 +27,4 @@ async function updateUsers() {
     console.log(user);
 }
 
-someFunction();
+otherFunction();

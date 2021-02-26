@@ -12,6 +12,7 @@ const userSchema = new Schema({
         type: Date,
         default: new Date(),
     },
+    name: String,
 })
 
 module.exports = model('User', userSchema);
