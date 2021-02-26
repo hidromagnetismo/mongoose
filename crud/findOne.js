@@ -3,10 +3,10 @@
 
 require('../connection');
 
-const Product = require('../models/User');
+const User = require('../models/User');
 
 async function getUser() {
-    const user = await Product.findOne({username: 'fatz'});
+    const user = await User.findOne({username: 'fatz'});
     console.log(user);
 }
 
